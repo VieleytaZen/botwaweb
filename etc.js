@@ -15,6 +15,6 @@ const opts = {
 }
 const owner = '6282133692292'
 
-const author = 'https://github.com/Ftwrr'
+const author = 'https://github.com/VieleytaZen'
 
 export default { APIs, APIKeys, opts, prefix, owner, author }
