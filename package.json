@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "@xct007/frieren-scraper": "github:xct007/frieren-scraper",
+    "@bochilteam/scraper": "4.0.22-alpha.0",
     "colorette": "^2.0.20",
     "file-type": "^18.2.1",
     "node-fetch": "^3.3.2",
