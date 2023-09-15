@@ -11,9 +11,9 @@ import { axios } from 'axios';
    const v = response.data; 
    m.reply(v.result); 
  }; 
- handler.help = ["ai"]; 
- handler.tags = ["Ai"]; 
- handler.command = /^(ai)$/i; 
- handler.register = true; 
+ handler.help = ["ai"]
+ handler.tags = ["Ai"]
+ handler.command = /^(ai)$/i
+ handler.register = true
 
-export default handler;
+export default handler
