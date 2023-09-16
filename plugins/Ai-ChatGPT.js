@@ -1,4 +1,4 @@
-import { axios } from 'axios';
+import { axios } from 'axios'
   
  let handler = async (m, { text, usedPrefix, command }) => { 
      if(!text) return m.reply(`Masukkan teks yang mau ditanyakan ke OpenAI \nContoh: ${usedPrefix+command} Apa itu chat GPT?`) 
@@ -8,8 +8,8 @@ import { axios } from 'axios';
        responseType: "json", 
      } 
    ); 
-   const v = response.data; 
-   m.reply(v.result); 
+   const v = response.data
+   m.reply(v.result)
  }; 
  handler.help = ["ai"]
  handler.tags = ["Ai"]
